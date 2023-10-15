@@ -74,9 +74,9 @@ spec:
 ```
 
 ### Credentials
-In order to access the Hetzner API, the webhook needs an API token.
+In order to access the Bunny API, the webhook needs an API token.
 
-If you choose another name for the secret than `hetzner-secret`, you must install the chart with a modified `secretName` value. Policies ensure that no other secrets can be read by the webhook. Also modify the value of `secretName` in the `[Cluster]Issuer`.
+If you choose another name for the secret than `bunny-secret`, you must install the chart with a modified `secretName` value. Policies ensure that no other secrets can be read by the webhook. Also modify the value of `secretName` in the `[Cluster]Issuer`.
 
 The secret for the example above will look like this:
 ```yaml
